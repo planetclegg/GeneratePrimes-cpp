@@ -12,7 +12,8 @@ for some improvement.  Made very little difference.
 
 Unless I'm doing something wrong, the C# implementations are looking pretty good, 
 all things considered. Only seeing about a ~20-25% improvement in runtime with the C++ 
-version, with -Ofast optimizations turned on.
+version, with -Ofast optimizations turned on (and thats running in rosetta!).
+Negligible difference (<3%) on the intel boxes
 
 #### Mac Mini M1 (Macmini9,1)
 ```bash
