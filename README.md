@@ -1,6 +1,6 @@
 ## GeneratePrimes-cpp
 
-A straight port of just part of planetclegg/GeneratePrimes-dotnetcore
+A straight port of just part of https://github.com/planetclegg/GeneratePrimes-dotnetcore
 
 I just wanted to port enough to C/C++ to get a performance baseline of
 compiled C/C++ to native ARM vs JITed C# running under rosetta.
