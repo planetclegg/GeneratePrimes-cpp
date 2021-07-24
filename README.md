@@ -32,7 +32,18 @@ Testing with 7 tests.
 
 #### MBP 2015 (MacBookPro11,5)
 ```
-?
+$ clang++ -std=c++14 -Ofast  Optimized64PrimeSieve.cpp
+$ file a.out
+a.out: Mach-O 64-bit executable x86_64
+$ ./a.out 
+Testing with 7 tests.
+ - Calc primes up to      10000, (      1229 expected)... took     0.0 ms.
+ - Calc primes up to     100000, (      9592 expected)... took     0.2 ms.
+ - Calc primes up to    1000000, (     78498 expected)... took     1.9 ms.
+ - Calc primes up to   10000000, (    664579 expected)... took    21.8 ms.
+ - Calc primes up to  100000000, (   5761455 expected)... took   233.0 ms.
+ - Calc primes up to 1000000000, (  50847534 expected)... took  3039.9 ms.
+ - Calc primes up to 2147483647, ( 105097565 expected)... took  8295.6 ms.
 ```
 #### MBP 2013 (MacBookPro10,1)
 ```
